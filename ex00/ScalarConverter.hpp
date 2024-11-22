@@ -6,7 +6,7 @@
 /*   By: eltouma <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 16:16:24 by eltouma           #+#    #+#             */
-/*   Updated: 2024/11/22 18:16:14 by eltouma          ###   ########.fr       */
+/*   Updated: 2024/11/22 19:53:40 by eltouma          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,7 @@ public:
 
 int	isSpecialDouble(std::string s);
 int	isSpecialFloat(std::string s);
+int	isInt(std::string s);
+int	isFloat(std::string s);
+int	isDouble(std::string s);
+void	convertToInt(std::string s);
